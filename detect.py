@@ -2,7 +2,7 @@ import jetson.inference
 import jetson.utils
 
 # initialize the camera
-camera = jetson.utils.gstCamera(1280, 720, "0")
+camera = jetson.utils.gstCamera(1280, 720, "/dev/video0")
 
 # load the object detection model
 net = jetson.inference.detectNet("ssd-mobilenet-v2", threshold=0.5)
