@@ -1,5 +1,6 @@
 import jetson.inference
 import jetson.utils
+import cv2
 
 # initialize the camera
 camera = jetson.utils.gstCamera(1280, 720, "/dev/video0")
