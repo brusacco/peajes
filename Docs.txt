@@ -1,3 +1,5 @@
 Install DeepStream
 https://docs.nvidia.com/metropolis/deepstream/6.0/dev-guide/text/DS_Quickstart.html#install-the-deepstream-sdk
 
+Download Deepstream
+https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads-archived
